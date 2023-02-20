@@ -1,0 +1,60 @@
+
+CREACION PROYECTO
+- Bajarse la version 4.26 pero la 5.1.00 tambien funka si tu ordena puede.
+
+- Bajarse unos assets y tal.
+
+- Abrir proyeto de tipo Game
+ 
+- Elegir template THIRD Person 
+
+- Project Settings. Si esta limitada la maquina configurar para que vaya fluido. 
+	Usar blueprints.
+	Maximum Quality.
+	Raytracing Disabled porque sino, si se mueve alguna cosa se pone a calcular luces y detiene todo.
+	Plataforma ordenador
+	En este caso si usaremos With StarterContent.
+	Poner ruta del proyecto.  
+
+PROYECTO:
+- Ayuda en la parte superior derecha.
+
+- Para centrar un objeto en pantalla, seleccionar objeto y presionar F.
+
+- En la pestaña Ventana se puede guardar o cargar el layout.
+
+- Con la tecla f11 en el viewport se maximiza.
+
+- Cuando se mueva algo, hay que recalcular las luces en la pestaña Renderizar para recalcular las luces.
+
+- W ->Mover
+  E ->Rotar
+  r ->Escalar
+
+  Arriba a la derecha se puede cambiar los steps de rotar, escalar y mover. Al lado de cada uno esta la opción 
+  SNAPPING.
+- Arriba a la derecha del Viewport en el boton Mostrar se pueden habilitar las colisiones y tal.
+- Ademas se puede tambien cambiar los FPS, FOV , quitar todos los iconos y tal.
+- Por otro lado se puede cambiar la perspectiva, mirar de lado, desde arriba...
+
+BUSCADOR DE CONTENIDO:
+- Los azules son mallas
+- Los verdes son materiales
+- Los rojos son texturas.
+
+Crear carpetas.
+- No poner espacios.
+- Se puede cambiar el color con click derecho -> Ajustar color.
+
+TEXTURAS:
+SUFIJO -> D : Diffuse.
+SUFIJO -> N : Normal.
+
+MATERIALES:
+PREFIJO -> M : Material
+
+Texture Sample para poner una textura conectada al BaseColor
+
+Si la textura sale muy grande, aplicar el nodo TextureCoordinate
+
+
