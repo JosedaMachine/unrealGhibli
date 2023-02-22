@@ -10,10 +10,21 @@ Project for a recompilation of some ghibli movies in Unreal Engine 4.26
 * La princesa monoke
 
 ### Mi vecino Totoro
-![texto alternativo](ruta/a/la/imagen.png)
+Este entorno
+![](imagesReadme/TotoroPortada.webp)
+
+- Totoro
+- Niña
+- Gato bus (opcional)
+- Lluvia
+
 ### Viaje de Chihiro
+- Dragon Haku
+- Sin cara en el tren (lago)
+- Hotel 
 
 ### Kiki la bruja
+- Gato protagonista
 
 ### La princesa monoke
 
