@@ -1,4 +1,4 @@
-# unrealGhibli
+# Unreal Ghibli
 Project for a recompilation of some ghibli movies in Unreal Engine 4.26
 
 
@@ -27,4 +27,10 @@ Este entorno
 - Gato protagonista
 
 ### La princesa monoke
+Bosque detrás de totoro
+![](imagesReadme/monoke.jpg)
+con el espiritu del bosque
+![](imagesReadme/forestSpirit.jpg)
+y con estos bichitos.
+![](imagesReadme/bichs.jpg)
 
