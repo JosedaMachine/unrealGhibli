@@ -58,3 +58,6 @@ Texture Sample para poner una textura conectada al BaseColor
 Si la textura sale muy grande, aplicar el nodo TextureCoordinate
 
 
+Constant 3 Vector -> tecla 3 + click lo crea el nodo (igual con la 1, 2, 3, 4)
+
+
