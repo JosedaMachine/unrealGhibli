@@ -1,0 +1,76 @@
+Descargar animacion de mixamo con Binary, Skin, 30 y sin reduccion.
+
+Al importar dejar el esqueleto en Ninguno, importar la malla y check import Anim.
+Poner en long de anim Tiempo de Animacion
+
+y darle a Importar todo.
+
+Si no se ve alguna textura en el modelo. 
+Al abrir el mesh (rosa), seleccionar el material y doble click.
+
+En el panel de detalles, y en materiales Modo de Combinación esta en Opaco porque igual
+Unreal lo importa como transparente
+
+====================
+
+Seleccionamos el ThirdPersonCharacter, le damos a Editar, Seleccionamos la malla y en malla esqueleto 
+seleccionamos la anim
+
+Creamos un Blueprint Animaciontoon, click der ->anim ->blueprint anim.
+
+Heredamos de AnimInstance y seleccionamos el esqueleto de la anim.
+
+Poner nombre con prefijos
+
+Doble click 
+
+Creamos un New State Machine y contectamos ambos nodos. Abrimos el estado de maquina.
+
+Arrastramos entry para añadir estado.
+
+Entramos en el estado y añadimos la animacion que esta e la derecha y conectamos.
+
+Compilamos. 
+
+Vamos al ThirdPersonCharacter y lo editamos. Seleccinamos la Malla y en Animation ponemos en 
+AnimClass el nuevo BP que hemos creado. 
+
+Al importar nuevas, arrastramos, nos fijamos que tenga el esqueleto de antes y le 
+damos solo a Importar
+
+Si al importar, la animacion parece que la malla esta como estirada, eso es por el esqueleto
+de Mixamo, o esta como rotada o peta o alguna mamada. Asi se arregla:
+
+Abrimos el Skeleton nuestro personaje.
+Para poder ver los huesos, arriba pone Characerts, Bone, toda la jerarquia. 
+
+Hay que adaptar el skeleto a lo que pide Unreal. Hay poner el Skeleton Tree 
+y el RetargetManager(que esta arriba en el Medio)
+
+
+En Set Up Rig, select Rig Humanoid Rig, y hay que asignar los campos. Se puede
+hacer un apaño con Auto Map pero lo hace regu.
+
+Esto hay que hacerlo manual y es un coñazo. Pistas de qué poner en qué sitio.
+
+Root -> None
+Pelvis -> Hips
+.
+.
+.
+
+
+Abrimos ShowAdvanced
+
+los calf twists los borramos->None
+
+EN algunos tutos pero dicen que le demos a Modify Pose, pero en esta tecnica para importar
+animaciones no lo haremos.
+=========================
+
+Ahora como se añaden??
+
+Pues el hijo puta lo ha dejado para el otro dia
+
+
+
