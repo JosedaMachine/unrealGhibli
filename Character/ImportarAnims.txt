@@ -72,5 +72,45 @@ Ahora como se añaden??
 
 Pues el hijo puta lo ha dejado para el otro dia
 
+__________________________________________________________________________________
+
+Se puede hacer de otra manera, utilizando los modelos base de Unreal.
+
+Hacemos una copia de ellos de Mannequin Anims, menos el BP. 
+
+Click derecho y Enlazar los meta a no se que y duplicar.
+
+Deberia no salir nada a la derecha.
+
+Para que salga, hay que ajustarlo.
+
+Abrimos el skeleton del manequin UE4_Mannequin_Skeleton
+
+Le damos a Character, Bones, All hirarchy.
+
+En Select Rig -> Humanoid
+
+Seleccionamos los huesos de la clavicula y rotarlo 50 grados para que este en pose T.
+
+Luego en Manager Retarget Base Pose, 
+le damos a modify pose->use current pose
+
+Tiene que estar los huesos del modelo custom tiene bien mapeado la estructura de huesos
+y que esten en la misma pose.
+
+Ahora deberia aparecer la malla a la izq al darle a lo 
+"Enlazar los meta a no se que y duplicar." y le damos a retarget. Las animaciones nuevas se 
+han duplicado en la carpeta Content.
+
+Sobre el esqueleto del personaje custom, y en skeleton tree, y en Options desplegamos y sale 
+Show retargeting optons.
+
+Hay que seleccionar el primer hueso, llamado spine, o en unreal (root). y click derecho
+y esquelto enlazado de nuevo en de la transicion con no se que, y en principio se guarda y fino
+
+Ahora por ejemplo el "ThirdPerson_IdleRun_2D" deberia funcionar.
+
+
+
 
 
